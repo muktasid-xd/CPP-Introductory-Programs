@@ -1,6 +1,10 @@
 // Run command: g++ binary_decimal_conversion_1.cpp -o binary_decimal_conversion_1.exe && ./binary_decimal_conversion_1.exe
 
+// This program is an overview upon interconversion between decimal & binary numbers.
+
 #include <iostream>
+
+// Converts decimal number to binary number
 
 unsigned long long int convert_dec_to_bin(int num){
 
@@ -16,6 +20,8 @@ unsigned long long int convert_dec_to_bin(int num){
 
     return bin;
 }
+
+// Converts binary number to decimal number
 
 int convert_bin_to_dec(unsigned long long int bin){
 
@@ -47,3 +53,14 @@ int main(){
 
     return 0;
 }
+
+
+
+/* Example output:
+
+Enter an integral number: 357
+
+Binary number of 357 --------> 101100101
+Decimal number of 101100101 --------> 357
+
+*/

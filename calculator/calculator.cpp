@@ -1,5 +1,7 @@
 // Run command: g++ calculator.cpp -o calculator.exe && ./calculator.exe
 
+// This program performs basic arithmetic operation with user friendly interface
+
 #include <iostream>
 #include <limits>
 #include <cmath>
@@ -131,3 +133,42 @@ int main(){
     
     return 0;
 }
+
+
+
+/* Example output:
+Which operation would you like to perform?
+[Enter - 1] ---> Addition
+[Enter - 2] ---> Subtraction
+[Enter - 3] ---> Multiplication
+[Enter - 4] ---> Division
+[Enter - 5] ---> Modulo
+[Enter - 6] ---> Exit
+--->>> 4
+Enter the first number: 3
+Enter the second number: 0
+Zero Division Error
+
+Which operation would you like to perform?
+[Enter - 1] ---> Addition
+[Enter - 2] ---> Subtraction
+[Enter - 3] ---> Multiplication
+[Enter - 4] ---> Division
+[Enter - 5] ---> Modulo
+[Enter - 6] ---> Exit
+--->>> 2
+Enter the first number: 89
+Enter the second number: 54
+89 - 54 = 35
+
+Which operation would you like to perform?
+[Enter - 1] ---> Addition
+[Enter - 2] ---> Subtraction
+[Enter - 3] ---> Multiplication
+[Enter - 4] ---> Division
+[Enter - 5] ---> Modulo
+[Enter - 6] ---> Exit
+--->>> 6
+
+Exiting...
+*/
