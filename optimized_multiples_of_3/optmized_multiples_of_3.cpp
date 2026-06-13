@@ -1,5 +1,8 @@
 // Run command: g++ optmized_multiples_of_3.cpp -o optmized_multiples_of_3.exe && ./optmized_multiples_of_3.exe
 
+// This program displays the sum of all the values that are multiples of 3 upto specified 'n'.
+// Lesser use of modulo operator (%) is observed in this code, thereby, increasing the speed of the program.
+
 #include <iostream>
 
 int main(){
@@ -18,12 +21,14 @@ int main(){
     if(num >= 3)
     {
         while(start % 3 != 0){
+
             start = start + 1;
         }
 
         i = start;
 
         while(i <= num){
+
             sum = sum + i;
             i = i + 3;
         }
@@ -34,3 +39,10 @@ int main(){
 
     return 0;
 }
+
+
+
+/* Example output:
+Enter number: 50
+Sum of all the multiples until 50 = 408
+*/

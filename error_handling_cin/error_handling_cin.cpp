@@ -21,7 +21,7 @@ int main(){
 
 
 
-/*Example output: 
+/* Example output: 
 Enter number: hello
 Not an integer
 */

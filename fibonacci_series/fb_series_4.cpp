@@ -1,7 +1,8 @@
 // Run command: g++ fb_series_4.cpp -o fb_series_4.exe && ./fb_series_4.exe
 
-
-// This solution was suggested by Google's AI model, Gemini.
+// This program displays the fibonacci series upto n terms using simple recursive call.
+// This clean & beautiful solution was suggested by Gemini (Google's AI model).
+// (I personally loved such simple approach & hence, implemented this series using AI's solution).
 
 #include <iostream>
 
@@ -20,9 +21,9 @@ void print_fb_series(int n, int prev = 0, int next = 1){
 
 int main(){
 
-    int n = 7;
+    int n = 15;
 
-    std::cout << "Fibonacci series upto " << n << " terms: ";
+    std::cout << "Fibonacci series upto " << n << " terms:\n";
     
     print_fb_series(n);
 
@@ -30,3 +31,10 @@ int main(){
 
     return 0;
 }
+
+
+
+/* Example output:
+Fibonacci series upto 15 terms:
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
+*/

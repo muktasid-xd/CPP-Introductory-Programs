@@ -1,5 +1,8 @@
 // Run command: g++ butterfly.cpp -o butterfly.exe && ./butterfly.exe
 
+// This program displays the butterfly-like pattern.
+// 'n' is the half value of the total number of rows within the pattern.
+
 #include <iostream>
 
 int main(){
@@ -49,8 +52,26 @@ int main(){
             std::cout << "* ";
         }
 
-        std::cout << '\n';
+        std::cout << "\n";
     }
+
+    std::cout << "\n"; // (Extra newline)
 
     return 0;
 }
+
+
+
+/* Example output:
+Enter number: 4
+
+*             * 
+* *         * * 
+* * *     * * * 
+* * * * * * * * 
+* * * * * * * * 
+* * *     * * * 
+* *         * * 
+*             * 
+
+*/

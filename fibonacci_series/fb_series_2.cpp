@@ -1,5 +1,8 @@
 // Run command: g++ fb_series_2.cpp -o fb_series_2.exe && ./fb_series_2.exe
 
+// This program displays the fibonacci series upto n terms using recursive call for each term.
+// (inefficient & requires high computing power)
+
 #include <iostream>
 
 int fb_num(int n){
@@ -14,12 +17,10 @@ int fb_num(int n){
         return 1;
     }
 
-    return fb_num(n - 1) + fb_num(n - 2);
+    return fb_num(n - 1) + fb_num(n - 2);  // <-- Involves branching of each term in recursive call
 }
 
 void print_fb_series(int n){
-
-    std::cout << "Fibonacci series upto " << n << " terms: ";
 
     for(int i = 1; i <= n; i++){
 
@@ -30,8 +31,20 @@ void print_fb_series(int n){
 }
 
 int main(){
-    
-    print_fb_series(10);
+
+    int n = 20;
+
+    std::cout << "Fibonacci series upto " << n << " terms:\n";    
+    print_fb_series(n);
+
+    std::cout << "\n";
 
     return 0;
 }
+
+
+
+/* Example output:
+Fibonacci series upto 20 terms:
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 
+*/

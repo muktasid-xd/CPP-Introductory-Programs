@@ -1,5 +1,8 @@
 // Run command: g++ hollow_diamond.cpp -o hollow_diamond.exe && ./hollow_diamond.exe
 
+// This program displays a hollow diamond-like pattern.
+// 'n' --> (total rows - 1) / 2
+
 #include <iostream>
 
 int main(){
@@ -56,5 +59,24 @@ int main(){
         std::cout << "\n";
     }
 
+    std::cout << "\n"; // Extra newline
+
     return 0;
 }
+
+
+
+/* Example output:
+Enter number: 5
+
+    *
+   * *
+  *   *
+ *     *
+*       *
+ *     *
+  *   *
+   * *
+    *
+
+*/
