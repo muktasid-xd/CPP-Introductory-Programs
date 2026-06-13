@@ -1,4 +1,3 @@
-// Startup command: cd C:\VScode\c++\Other_programs\calculator && g++ calculator.cpp -o calculator.exe && ./calculator.exe
 // Run command: g++ calculator.cpp -o calculator.exe && ./calculator.exe
 
 #include <iostream>

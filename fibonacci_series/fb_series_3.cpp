@@ -1,4 +1,3 @@
-// Startup command: cd C:\VScode\c++\Other_programs\fibonacci_series && g++ fb_series_3.cpp -o fb_series_3.exe && ./fb_series_3.exe
 // Run command: g++ fb_series_3.cpp -o fb_series_3.exe && ./fb_series_3.exe
 
 #include <iostream>

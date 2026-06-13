@@ -1,4 +1,3 @@
-// Startup command: cd C:\VScode\c++\Other_programs\patterns && g++ hollow_diamond.cpp -o hollow_diamond.exe && ./hollow_diamond.exe
 // Run command: g++ hollow_diamond.cpp -o hollow_diamond.exe && ./hollow_diamond.exe
 
 #include <iostream>

@@ -1,4 +1,3 @@
-// Startup command: cd C:\VScode\c++\Other_programs\binary_decimal_conversion && g++ binary_decimal_conversion_1.cpp -o binary_decimal_conversion_1.exe && ./binary_decimal_conversion_1.exe
 // Run command: g++ binary_decimal_conversion_1.cpp -o binary_decimal_conversion_1.exe && ./binary_decimal_conversion_1.exe
 
 #include <iostream>

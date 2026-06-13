@@ -1,4 +1,3 @@
-// Startup command: cd C:\VScode\c++\Other_programs\sum_of_digits && g++ sum_of_digits.cpp -o sum_of_digits.exe && ./sum_of_digits.exe
 // Run command: g++ sum_of_digits.cpp -o sum_of_digits.exe && ./sum_of_digits.exe
 
 #include <iostream>

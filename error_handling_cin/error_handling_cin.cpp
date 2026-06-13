@@ -1,4 +1,3 @@
-// Start-up command: cd C:\VScode\c++\Other_programs\error_handling_cin && g++ error_handling_cin.cpp -o error_handling_cin.exe && ./error_handling_cin.exe
 // Run command: g++ error_handling_cin.cpp -o error_handling_cin.exe && ./error_handling_cin.exe
 
 #include <iostream>

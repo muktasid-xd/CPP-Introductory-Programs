@@ -1,4 +1,3 @@
-// Startup command: cd C:\VScode\c++\Other_programs\patterns && g++ butterfly.cpp -o butterfly.exe && ./butterfly.exe
 // Run command: g++ butterfly.cpp -o butterfly.exe && ./butterfly.exe
 
 #include <iostream>

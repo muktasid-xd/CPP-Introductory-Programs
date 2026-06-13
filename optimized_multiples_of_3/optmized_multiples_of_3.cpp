@@ -1,4 +1,3 @@
-// Startup command: cd C:\VScode\c++\Other_programs\optimized_multiples_of_3 && g++ optmized_multiples_of_3.cpp -o optmized_multiples_of_3.exe && ./optmized_multiples_of_3.exe
 // Run command: g++ optmized_multiples_of_3.cpp -o optmized_multiples_of_3.exe && ./optmized_multiples_of_3.exe
 
 #include <iostream>
